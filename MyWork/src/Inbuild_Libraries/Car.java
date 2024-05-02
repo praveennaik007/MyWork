@@ -14,7 +14,7 @@ public Car(String bN, double tS, double price) {
 //public String toString() {
 //	return "Car [bN=" + bN + ", tS=" + tS + ", price=" + price + "]";
 //}
-//@Override
+@Override
 //public int hashCode() {
 //	final int prime = 31;
 //	int result = 1;
@@ -46,9 +46,9 @@ public Car(String bN, double tS, double price) {
 //		return false;
 //	return true;
 //}
-//public boolean equals(Object obj) {
-//	Car temp=(Car)obj;
-//	return this.bN==temp.bN&&this.tS==temp.tS&&this.price==this.price;
-//}
+public boolean equals(Object obj) {
+	Car temp=(Car)obj;
+	return this.bN==temp.bN&&this.tS==temp.tS&&this.price==this.price;
+}
 
 }

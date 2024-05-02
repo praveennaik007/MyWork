@@ -11,7 +11,7 @@ public class Remove_Duplicates_Another_Way {
 				}
 				if (a[i] == a[j]) {
 					count++;
-					System.out.println(a[i]);
+					System.out.print(a[i]+" ");
 					break;
 				}
 			}

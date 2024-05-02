@@ -14,9 +14,11 @@ public class Bank {
 		public void deposite() {
 			System.out.println("from deposite ");
 		}
-
 	}
 	public Atm atm() {
 		return new Sbi();
+	}
+	public static Atm m1() {
+		return m1();
 	}
 }

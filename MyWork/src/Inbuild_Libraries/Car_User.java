@@ -6,7 +6,7 @@ public class Car_User {
 		System.out.println(c.bN);
 		System.out.println(c.price);
 		System.out.println(c.tS);
-		System.out.println(c);
+		System.out.println(c.hashCode());
 //		System.out.println(c.toString());
 //		System.out.println(c);
 //		Car c1=new Car("Bmw", 230.0, 250.47);

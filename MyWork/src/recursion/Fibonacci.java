@@ -7,11 +7,10 @@ public class Fibonacci {
 
 	public static int fib(int a) {
 
-		if (a <= 1) {
+		if (a <= 1) 
 			return a;
-		} else {
+		else 
 			return (fib(a - 1) + fib(a - 2));
-		}
 
 	}
 }

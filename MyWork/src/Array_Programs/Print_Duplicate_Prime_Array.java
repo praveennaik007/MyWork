@@ -10,6 +10,7 @@ public class Print_Duplicate_Prime_Array {
 					count++;
 				}
 			}
+			int b[]=new int[count];
 			if (count == 2) {
 //				System.out.print(a[i]);
 			}

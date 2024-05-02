@@ -5,20 +5,26 @@ import java.util.Queue;
 
 public class Queue_Demo {
 public static void main(String[] args) {
-	Queue l=new PriorityQueue();
+	PriorityQueue<Character>  l=new PriorityQueue<>();
 	l.add('a');
 	l.add('b');
 	l.add('c');
 	l.add('d');
 	l.add('a');
-	l.add(null);
+//	l.add(null);//NullPointerException
+//	System.out.println(l);
+//	System.out.println(l.poll());
+	l.offer('g');
 	System.out.println(l);
-//	l.poll();
+	l.remove('c');
+	System.out.println(l);
+	System.out.println(l.contains('d'));
+	
+	
 //	System.out.println(l);
-//	l.peek();
-//	System.out.println(l);
+//	System.out.println(l.peek());
 //	System.out.println(l.element());
-//System.out.println(l.remove(1));
+//	System.out.println(l.remove(1));
 	
 	
 	

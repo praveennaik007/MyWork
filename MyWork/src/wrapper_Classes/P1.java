@@ -6,10 +6,10 @@ public class P1 {
 	}
 
 	
-	/*
-	 * private static void run(int i) { 
-	 * System.out.println("form (int i)"); }
-	 */
+	
+	  private static void run(int i) { 
+	  System.out.println("form (int i)"); }
+
 	 
 
 	/*

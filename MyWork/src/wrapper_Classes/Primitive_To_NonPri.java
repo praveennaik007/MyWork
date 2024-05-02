@@ -21,7 +21,7 @@ public class Primitive_To_NonPri {
 		Character c1 = Character.valueOf(ch);
 		System.out.println(c1);
 		// Auto-Boxing
-		Character c2 = c1;
+		Character c2 = ch;
 //		Internally Character c1 = Character.valueOf(ch);
 		System.out.println(c2);
 		

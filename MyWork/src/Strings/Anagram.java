@@ -3,7 +3,7 @@ package Strings;
 public class Anagram {
 	public static void main(String[] args) {
 		String s1 = "sIlent";
-		String s2 = "Listen";
+		String s2 = "listen";
 		s1 = s1.toLowerCase();
 		s2 = s2.toLowerCase();
 		char ch1[] = s1.toCharArray();
