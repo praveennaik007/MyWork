@@ -11,7 +11,7 @@ public class Demo {
 		li.add(130);
 		li.add(150);
 	}
-public static int list(List<Integer> l) {
-	
-}
+//public static int list(List<Integer> l) {
+//	
+//}
 }

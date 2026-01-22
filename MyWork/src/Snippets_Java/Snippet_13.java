@@ -15,5 +15,6 @@ a. 17
 b. 9
 c. 25 
 d. Compile Time Error
-Answer:c
+
+OutPut:c
  */

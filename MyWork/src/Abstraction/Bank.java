@@ -18,7 +18,7 @@ public class Bank {
 	public Atm atm() {
 		return new Sbi();
 	}
-	public static Atm m1() {
-		return m1();
-	}
+//	public static Atm m1() {
+//		return m1();
+//	}
 }

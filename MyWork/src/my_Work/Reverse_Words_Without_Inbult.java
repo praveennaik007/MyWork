@@ -7,8 +7,7 @@ public class Reverse_Words_Without_Inbult {
 		for (int i = s.length() - 1; i >= 0; i--) {
 			if (s.charAt(i) != ' ') {
 				s1 = s.charAt(i) + s1;
-			}
-				else {
+			} else {
 				System.out.print(s1 + " ");
 				s1 = "";
 			}

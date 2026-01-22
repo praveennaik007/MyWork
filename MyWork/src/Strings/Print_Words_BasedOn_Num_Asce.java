@@ -2,7 +2,7 @@ package Strings;
 
 public class Print_Words_BasedOn_Num_Asce {
 public static void main(String[] args) {
-	String s = "html2 java1 sql5 css3 advancejava4";
+	String s ="html2 java1 sql5 css3 advancejava4";
 	String str[] = s.split(" ");
 
 	for (int i = 0; i < str.length; i++) {
@@ -18,6 +18,6 @@ public static void main(String[] args) {
 	for (int i = 0; i < str.length; i++) {
 		string += " " + str[i].substring(0, str[i].length() - 1);
 	}
-	System.out.println(string + " ");
+	System.out.println(string + "");
 }
 }

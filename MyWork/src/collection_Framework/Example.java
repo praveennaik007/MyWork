@@ -1,11 +1,9 @@
 package collection_Framework;
 
 //import java.util.PriorityQueue;
-import java.util.collection;
 import java .util.HashMap;
 import java.util.Hashtable;
 import java.util.Set;
-import java.util.set;
 
 
 public class Example {

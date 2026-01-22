@@ -5,7 +5,7 @@ public class Check_Num_Contains_7 {
 		int count = 0;
 		for (int i = 60; i <= 80; i++) {
 			if (Contain7(i)) {
-				System.out.println(i);
+				System.out.print(i+" ");
 				count++;
 			}
 		}

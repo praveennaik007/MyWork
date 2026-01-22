@@ -16,47 +16,47 @@ public class Comparator_Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the name : ");
 		String sname = sc.next();
-//		if (sname.equalsIgnoreCase("id")) {
-//			Collections.sort(al, new Comparator_Id());
-//			for (Comparator_Stu comparator_Stu : al) {
-//				System.out.println(comparator_Stu);
-//			}
-//		} else if (sname.equalsIgnoreCase("name")) {
-//			Collections.sort(al, new Comparator_Name());
-//			for (Comparator_Stu comparator_Stu : al) {
-//				System.out.println(comparator_Stu);
-//			}
-//		} else if (sname.equalsIgnoreCase("marks")) {
-//			Collections.sort(al, new Comparator_Marks());
-//			for (Comparator_Stu comparator_Stu : al) {
-//				System.out.println(comparator_Stu);
-//			}
-//		} else {
-//			System.out.println("Not Found ");
-//		}
-		
-		Comparator_Id id=new Comparator_Id();
-		Comparator_Name name=new Comparator_Name();
-		Comparator_Marks marks=new Comparator_Marks();
-		
 		if (sname.equalsIgnoreCase("id")) {
-			Collections.sort(al, id);
+			Collections.sort(al, new Comparator_Id());
 			for (Comparator_Stu comparator_Stu : al) {
 				System.out.println(comparator_Stu);
 			}
 		} else if (sname.equalsIgnoreCase("name")) {
-			Collections.sort(al, name);
+			Collections.sort(al, new Comparator_Name());
 			for (Comparator_Stu comparator_Stu : al) {
 				System.out.println(comparator_Stu);
 			}
 		} else if (sname.equalsIgnoreCase("marks")) {
-			Collections.sort(al, marks);
+			Collections.sort(al, new Comparator_Marks());
 			for (Comparator_Stu comparator_Stu : al) {
 				System.out.println(comparator_Stu);
 			}
 		} else {
 			System.out.println("Not Found ");
 		}
+		
+//		Comparator_Id id=new Comparator_Id();
+//		Comparator_Name name=new Comparator_Name();
+//		Comparator_Marks marks=new Comparator_Marks();
+//		
+//		if (sname.equalsIgnoreCase("id")) {
+//			Collections.sort(al, id);
+//			for (Comparator_Stu comparator_Stu : al) {
+//				System.out.println(comparator_Stu);
+//			}
+//		} else if (sname.equalsIgnoreCase("name")) {
+//			Collections.sort(al, name);
+//			for (Comparator_Stu comparator_Stu : al) {
+//				System.out.println(comparator_Stu);
+//			}
+//		} else if (sname.equalsIgnoreCase("marks")) {
+//			Collections.sort(al, marks);
+//			for (Comparator_Stu comparator_Stu : al) {
+//				System.out.println(comparator_Stu);
+//			}
+//		} else {
+//			System.out.println("Not Found ");
+//		}
 //		Comparator_Id id=new Comparator_Id();
 //		Comparator_Name name=new Comparator_Name();
 //		Comparator_Marks marks=new Comparator_Marks();

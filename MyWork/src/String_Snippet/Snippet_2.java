@@ -8,11 +8,3 @@ public class Snippet_2 {
 	}
 
 }
-/*
-  Output:
-a. ArrayIndexOutOfBoundsException
-b. ClassCastException
-c. IllegalArgumentException
-d. None of the ab
-Answer:b
- */

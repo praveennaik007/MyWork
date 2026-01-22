@@ -22,9 +22,9 @@ public class First_10_Prime_Num_Avg {
 				break;
 			}
 		}
-		System.out.println("First 10 Prime Num Sum : " + sum);
-		int avg = sum / 10;
-		System.out.println("First 10 Prime Num Average : " + avg);
+//		System.out.println("First 10 Prime Num Sum : " + sum);
+//		int avg = sum / 10;
+//		System.out.println("First 10 Prime Num Average : " + avg);
 
 	}
 }

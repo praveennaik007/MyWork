@@ -13,7 +13,7 @@ public class Print_Prime_Ele_In_New_Arr {
 		}
 		int b[] = new int[count];
 		int x = 0;
-		for (int i = 0; i < a.length; i++) {
+		for (int i = 0; i < a.length; i++) {  
 			if (isprime(a[i])) {
 				b[x++] = a[i];
 			}

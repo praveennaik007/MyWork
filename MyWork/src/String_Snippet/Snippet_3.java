@@ -9,11 +9,3 @@ public class Snippet_3 {
 		System.out.println(sb1 + " " + s1);
 	}
 }
-/*
- *Output :
-  a. sb1.append(“abc”); s1.append(“abc”);
-  b. sb1.append(“abc”); s1.concat(“abc”);
-  c. sb1.concat(“abc”); s1.append(“abc”);
-  d. sb1.append(“abc”); s1 = s1.concat(“abc”);
-  Answer:d
- */

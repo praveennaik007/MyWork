@@ -11,10 +11,10 @@ public class Remove_Duplicates_In_An_Array {
 			for (int j = i + 1; j < a.length; j++) {
 				if (a[i] == a[j]) {
 
-					a[j] = -1;
+					a[j] = Integer.MAX_VALUE;
 				}
 			}
-			if (a[i] != -1 && fib(a[i])) {
+			if (a[i] != Integer.MAX_VALUE && fib(a[i])) {
 				System.out.print(a[i] + " ");
 			}
 		}

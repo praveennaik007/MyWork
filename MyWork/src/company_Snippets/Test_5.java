@@ -8,6 +8,7 @@ public class Test_5 {
 
 		StringBuilder builder1 = new StringBuilder("Sum Micro Systems");
 		StringBuilder builder2 = new StringBuilder("Sum Micro Systems");
+		System.out.println(builder1);
 		System.out.println(builder1.equals(builder2));
 
 		StringBuffer buffer1 = new StringBuffer("Sun Micro Systems");

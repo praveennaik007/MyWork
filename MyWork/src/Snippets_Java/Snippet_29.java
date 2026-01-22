@@ -2,9 +2,9 @@ package Snippets_Java;
 
 public class Snippet_29 {
 public static void main(String[] args) {
-	while(1<=5) 
+	while(1<=5) {
 		System.out.println(1<4);
-	
+	}
 }
 }
 /*

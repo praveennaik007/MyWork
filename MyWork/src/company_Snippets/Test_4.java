@@ -17,6 +17,7 @@ public static String method1() {
 	}
 	finally {
 		System.out.println("Finnally block executing");
+		
 	}
 	System.out.println("end");
 	return "From End";

@@ -1,10 +1,11 @@
 package collection_Framework;
 
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee> {
 	int id;
 	String name;
 	double sal;
 	String date;
+
 	public Employee(int id, String name, int sal, String date) {
 		super();
 		this.id = id;
@@ -12,13 +13,15 @@ public class Employee implements Comparable<Employee>{
 		this.sal = sal;
 		this.date = date;
 	}
+
 	@Override
 	public String toString() {
 		return "\nEmployee [id=" + id + ", name=" + name + ", sal=" + sal + ", date=" + date + "]";
 	}
+
 	@Override
 	public int compareTo(Employee o) {
-		return this.id-o.id;
+		return this.name.compareTo(o.name);
 	}
-	
+
 }

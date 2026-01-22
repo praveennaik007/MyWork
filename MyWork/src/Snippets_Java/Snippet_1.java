@@ -9,9 +9,9 @@ public class Snippet_1 {
 }
 /*
 output :-
-a. True
-b. False
-c. Compile Time Error
-d. Runtime Error
-Answer: c
+	a. True
+	b. False
+	c. Compile Time Error
+	d. Runtime Error
+	Answer: c
  */

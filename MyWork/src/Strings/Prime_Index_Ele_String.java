@@ -17,9 +17,9 @@ public class Prime_Index_Ele_String {
 			} else {
 				str += s.charAt(i);
 			}
-			
+
 		}
 		System.out.println();
-		System.out.println(str+" ");
+		System.out.println(str + " ");
 	}
 }

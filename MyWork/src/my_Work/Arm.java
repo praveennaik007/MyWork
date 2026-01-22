@@ -9,7 +9,6 @@ public class Arm {
 			count++;
 			num /= 10;
 		}
-		int h = 1;
 		for (int i = 1; i <= count; i++) {
 			prod *= temp % 10;
 			if (temp == 0) {
@@ -20,20 +19,17 @@ public class Arm {
 				i = 0;
 				prod = 1;
 				temp = temp / 10;
-				continue;
 			}
 
 		}
-		System.out.println(sum);
-
-//		if(sum==temp)
-//		{
-//			System.out.println("Arm");
-//		}
-//		else
-//		{
-//			System.out.println("Not ARM");
-//		}
+		if(sum==temp)
+		{
+			System.out.println("Armstrong");
+		}
+		else
+		{
+			System.out.println("Not A Armstrong");
+		}
 
 	}
 }

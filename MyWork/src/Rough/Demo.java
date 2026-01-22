@@ -8,7 +8,7 @@ public class Demo {
 //	public Demo() {
 //		this.i=10;
 //	}
-public static void main(String[] args) {
+	public static void main(String[] args) {
 //	Demo d=new Demo();
 //	System.out.println(d.i);
 //	if(System.out.printf("Hello World")==null) {
@@ -28,21 +28,21 @@ public static void main(String[] args) {
 //		char ch=s.charAt(0);
 //	System.out.print(ch+" ");
 //	} 	
-	
-	String s="otown";
-	String str="two";
-	String st="";
-	char ch[]=s.toCharArray();
-	Arrays.sort(ch);
-	char ch1[]=str.toCharArray();
-	for (int i = 0; i < ch.length; i++) {
-		for (int j = 0; j < ch1.length; j++) {
-			if(ch[i]==ch[j]) {
-				st+=s.charAt(i);	
+
+		String s = "otown";
+		String str = "two";
+		String st = "";
+		char ch[] = s.toCharArray();
+		Arrays.sort(ch);
+		char ch1[] = str.toCharArray();
+		for (int i = 0; i < ch.length; i++) {
+			for (int j = 0; j < ch1.length; j++) {
+				if (ch[i] == ch[j]) {
+					st += s.charAt(i);
+				}
 			}
-		}	
+		}
+		System.out.println(st);
+
 	}
-	System.out.println(st);
-	
-}
 }

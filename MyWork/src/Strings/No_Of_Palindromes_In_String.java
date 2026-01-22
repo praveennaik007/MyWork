@@ -9,7 +9,7 @@ public class No_Of_Palindromes_In_String {
 			for (int j = i + 1; j < s.length(); j++) {
 				str = str + s.charAt(j);
 				if (palindrome(str)) {
-					System.out.println(str);
+					System.out.print(str+" ");
 					count++;
 				}
 			}

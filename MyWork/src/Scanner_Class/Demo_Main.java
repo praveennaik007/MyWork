@@ -23,5 +23,16 @@ public class Demo_Main {
 //			System.out.println(demo);
 //		}
 
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number : ");
+		int a=sc.nextInt();
+		System.out.println(a);
+		System.out.println("Enter the String : ");
+//		String s=sc.next();
+//		System.out.println(s);
+		sc.nextLine();
+		System.out.println("Enter the Sentance : ");
+		String s1=sc.nextLine();
+		System.out.println(s1);
 	}
 }

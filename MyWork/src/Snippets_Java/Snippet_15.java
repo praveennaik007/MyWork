@@ -7,7 +7,6 @@ public class Snippet_15 {
 			System.out.print(n / 2+" ");
 		System.out.print(n + 1 + " ");
 		System.out.print(n);
-
 	}
 }
 /*

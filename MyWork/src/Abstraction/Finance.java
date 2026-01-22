@@ -7,6 +7,6 @@ public class Finance {
 		a.withdraw();
 		a.checkBal();
 		a.deposite();
-		Atm s=Bank.m1();
+//		Atm s=Bank.m1();
 	}
 }
