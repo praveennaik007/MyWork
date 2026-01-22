@@ -1,0 +1,14 @@
+package Strings;
+
+public class String_Num_Addition_Char {
+	public static void main(String[] args) {
+		String s = "asc123bcd4";
+		int sum = 0;
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+				sum += s.charAt(i) - 48;
+			}
+		}
+		System.out.println(sum);// 10
+	}
+}
